@@ -202,3 +202,8 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+pagination:
+  enabled: false
+
+favicon: /assets/favicon.ico
