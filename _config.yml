@@ -123,10 +123,8 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
-
 # The base URL of your site
-baseurl: ""
+baseurl: "/wllilerjimw.github.io"
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -189,7 +187,6 @@ exclude:
   - "*.gemspec"
   - docs
   - tools
-  - README.md
   - LICENSE
   - rollup.config.js
   - package*.json
@@ -202,8 +199,5 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-pagination:
-  enabled: false
 
 favicon: /assets/favicon.ico
