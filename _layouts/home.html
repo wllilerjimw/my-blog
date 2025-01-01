@@ -19,11 +19,29 @@
   </header>
 
   <main>
-    {{ content }}
+    <section>
+      <h2>{{ page.title }}</h2>
+      <p>Welcome to my Jekyll site! This is the homepage where I share my writing and ideas.</p>
+      <p>Feel free to browse through the site and read my posts. Stay tuned for more content!</p>
+    </section>
+
+    <section class="latest-posts">
+      <h3>Latest Posts</h3>
+      <ul>
+        {% for post in site.posts limit:3 %}
+          <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <p>{{ post.excerpt }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }} | All Rights Reserved</p>
   </footer>
+
 </body>
 </html>
+
