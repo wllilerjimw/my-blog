@@ -205,3 +205,4 @@ jekyll-archives:
     category: /categories/:name/
 
 favicon: /assets/favicon.ico
+future: true
