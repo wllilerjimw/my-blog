@@ -14,16 +14,21 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: wllilerjim # the main title
+# Site title and tagline
+title: "wllilerjim"
+tagline: "成为完备的人，去写作，去流浪"
 
-tagline: 成为完备的人，去写作，去流浪 # it will display as the sub-title
-
-description: >- # used by seo meta and the atom feed
-  惜往昔，忆往事
-
-# Fill in the protocol & hostname for your site.
-# e.g. 'https://username.github.io', note that it does not end with a '/'.
+# Site URL, necessary for links and redirections
 url: "https://wllilerjimw.github.io"
+
+# Navigation links
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Contact"
+    url: "/contact"
 
 github:
   username: wllilerjimw # change to your github username
